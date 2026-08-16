@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Aastha Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#05060a;
+color:#e6f1ff;
+font-family:Arial;
+}
+
+/* HEADER PROFILE */
+.header{
+text-align:center;
+padding:40px 20px;
+background:linear-gradient(90deg,#06111f,#0a1c2f);
+border-bottom:1px solid #00f7ff33;
+}
+
+.header img{
+width:120px;
+height:120px;
+border-radius:50%;
+border:2px solid #00f7ff;
+margin-bottom:10px;
+}
+
+.header h1{
+font-family:'Orbitron';
+color:#00f7ff;
+}
+
+.header p{
+color:#aaa;
+margin-top:5px;
+}
+
+/* CONTAINER */
+.container{
+padding:40px 10%;
+}
+
+/* SECTION TITLE */
+h2{
+color:#00f7ff;
+font-family:'Orbitron';
+margin-bottom:15px;
+border-left:4px solid #00f7ff;
+padding-left:10px;
+}
+
+/* BOX */
+.box{
+background:rgba(255,255,255,0.03);
+border:1px solid #00f7ff22;
+padding:18px;
+border-radius:12px;
+margin-bottom:15px;
+transition:0.3s;
+}
+
+.box:hover{
+transform:translateY(-3px);
+border-color:#00f7ff;
+}
+
+/* GRID */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
+margin-bottom:20px;  
+}
+
+/* SKILL BAR */
+.bar{
+background:#111;
+height:8px;
+border-radius:20px;
+overflow:hidden;
+margin-top:5px;
+}
+
+.bar div{
+height:100%;
+background:#00f7ff;
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:20px;
+color:#777;
+border-top:1px solid #00f7ff22;
+}
+</style>
+</head>
+
+<body>
+
+<!-- PROFILE -->
+<div class="header">
+<img src= "phato.jpeg" class="profile-pic">
+<h1>Aastha Chauhan</h1>
+</p>Diploma in Information Technology Student | Aspiring Cybersecurity Professional </p>
+</div>
+
+<div class="container">
+
+<!-- ABOUT -->
+<h2>About Me</h2>
+<div class="box">
+I am a Diploma in Information Technology student with a strong interest in Cybersecurity, Digital Investigation, and Technology. I am eager to learn new skills and build my career in
+the IT and Cybersecurity field. I am a quick learner, hardworking, and passionate about solving technical problems.
+  
+</div>
+
+<!-- EDUCATION -->
+<h2>Education</h2>
+
+<div class="grid">
+
+<div class="box">
+<b>10th Standard</b><br>
+Year: 2024<br>
+Percentage: 72.93%<br>
+Completed successfully
+</div>
+
+<div class="box">
+<b>Diploma in IT</b><br>
+Government Polytechnic Valsad<br>
+Currently: 3rd Year<br>
+Status: Pursuing
+</div>
+
+</div>
+
+<!-- SKILLS -->
+<h2>Technical Skills</h2>
+
+<div class="box">
+Java
+<div class="bar"><div style="width:85%"></div></div>
+</div>
+
+<div class="box">
+SQL
+<div class="bar"><div style="width:80%"></div></div>
+</div>
+
+<div class="box">
+JDBC
+<div class="bar"><div style="width:70%"></div></div>
+</div>
+
+<div class="box">
+JSP
+<div class="bar"><div style="width:65%"></div></div>
+</div>
+
+<div class="box">
+DBMS
+<div class="bar"><div style="width:75%"></div></div>
+</div>
+
+<div class="box">
+Canva Design & Editing
+<div class="bar"><div style="width:90%"></div></div>
+</div>
+
+<div class="box">
+Cybersecurity Fundamentals
+<div class="bar"><div style="width:70%"></div></div>
+</div>
+
+<!-- PROJECTS -->
+<h2>Projects</h2>
+
+ <div class="box">
+  <h3>🛡️ PhishGuard AI</h3>
+
+  <p>
+    PhishGuard AI is an AI-powered Chrome browser extension that detects phishing
+    websites in real time using Machine Learning. It analyzes URLs and alerts
+    users about suspicious websites to improve online security.
+  </p>
+
+  <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Python, Flask, Machine Learning</p>
+
+  <a href="https://github.com/aasthachauhan1308-sys/PhishGuard-AI" target="_blank">
+    🔗 GitHub Repository
+  </a>
+
+  <br><br>
+
+  <a href="https://github.com/aasthachauhan1308-sys/PhishGuard-AI#readme" target="_blank">
+    📖 Documentation
+  </a>
+
+  <br><br>
+
+  <span>🧩 Chrome Extension (Install from Repository)</span>
+</div>
+
+<div class="grid">
+
+  <div class="box">
+    <h3>Vulnerability  Assessment Ddashboard  </h3>
+    <p>
+     I developed a Vulnerability Assessment Dashboard that helps to identify, monitor, and analyze security vulnerabilities in a system or network.
+     This project provides a centralized interface to view security risks, severity levels, and system health in an organized manner.
+    </p>
+    <br>
+    <a href="https://github.com/aasthachauhan1308-sys/portfolio">🔗 GitHub</a>
+    <br>
+    <a href="https://vulnerability-assessment-dashboard-798720277331.asia-southeast1.run.app">🌐 Live Demo</a>
+  </div>
+
+  <div class="box">
+    <h3> GTU Study Material Hub </h3>
+    <p>
+     The main goal of this project is to reduce the time students spend searching for study resources by providing everything in one centralized system. 
+     It improves accessibility and simplifies exam preparation for GTU students across different branches and semesters.
+    </p>
+    <br>
+    <a href="https://github.com/aasthachauhan1308-sys/GTU-project-13" target="_blank">🔗 GitHub</a>
+    <br>
+    <a href="https://gtu-project-13.vercel.app/" target="_blank">🌐 Live Demo</a>
+  </div>
+
+</div>
+
+
+<!-- CERTIFICATES -->
+<h2>Certificates</h2>
+
+<div class="grid">
+  <div class="box">IBM Cybersecurity Certificate</div>
+  <div class="box">HP Training Certificate</div>
+  <div class="box">Tops Technology Training Certificate</div>
+  <div class="box">CSS Training - IIT Bombay Online Certification</div>
+</div>
+
+
+<!-- INTERESTS -->
+<h2>Interests</h2>
+
+<div class="grid">
+
+<div class="box">Cybersecurity Investigation</div>
+<div class="box">Graphic Designn</div>
+<div class="box">Canva Designing</div>
+<div class="box">Learning New Technologies</div>
+
+</div>
+
+<!-- LANGUAGES -->
+<h2>Languages</h2>
+
+<div class="grid">
+<div class="box">Gujarati – Native</div>
+<div class="box">Hindi – Fluent </div>
+<div class="box">English – Intermediate</div>
+</div>
+
+<!-- CONTACT -->
+<h2>Contact Details</h2>
+
+<div class="grid">
+
+<div class="box">📧 Email: aasthachauhan353@gmail.com</div>
+<div class="box">💻 GitHub: https://github.com/aasthachauhan1308-syse</div>
+<div class="box">🔗Linkedin : www.linkedin.com/in/aastha-chauhan-45187b330 </div>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 Cyber Resume Portfolio | IT Diploma Student
+</footer>
+
+</body>
+</html>
