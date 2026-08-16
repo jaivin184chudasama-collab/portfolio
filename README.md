@@ -2,16 +2,14 @@
 Welcome to my personal portfolio website! This portfolio represents my skills, education, projects, and achievements as a Diploma in Information Technology student.
 
 👩 About Me
-Hello! I am Aastha Chauhan, a third-year Diploma student in Information Technology (IT). I have a strong interest in Cyber Security, especially Cyber Crime Investigation, Digital Forensics, and Information Security. I enjoy learning about cyber threats, security tools, and investigative techniques while continuously improving my technical skills through academic and personal projects.
-
-My goal is to build a successful career in the field of Cyber Security Investigation and contribute to protecting digital systems and investigating cyber incidents.
+Hello! I am Jaivin Chudasama,I am a Diploma in Information Technology student with a strong interest in cybersecurity, ethical hacking, and secure technology. I enjoy learning how computer systems and applications work and exploring ways to identify and prevent security vulnerabilities. My goal is to build a successful career in the field of Cyber Security Investigation and contribute to protecting digital systems and investigating cyber incidents.
 
 💻 Technologies Used
-HTML5
-CSS3
-JavaScript
-Git
-GitHub
+HTML 
+Java
+Python
+AI
+SQL
 ✨ Features
 Responsive and Modern Design
 About Me Section
@@ -22,7 +20,7 @@ Resume Download
 Contact Information
 Mobile-Friendly Interface
 🚀 Featured Projects
-📌 PhishGuard AI ⭐
+📌Cybershield-ai ⭐
 
 An AI-powered browser extension that detects phishing websites in real time using Machine Learning. It analyzes URLs, identifies suspicious websites, and helps users stay protected against phishing attacks.
 
@@ -30,7 +28,7 @@ Tech Stack: HTML • CSS • JavaScript • Python • Flask • Machine Learnin
 
 GitHub Repository: https://github.com/aasthachauhan1308-sys/PhishGuard-AI
 
-📌 GTU Project
+📌 Movie Mtrix
 A university project developed as part of my Diploma in Information Technology curriculum, demonstrating practical problem-solving and web development skills.
 
 GitHub Repository:
